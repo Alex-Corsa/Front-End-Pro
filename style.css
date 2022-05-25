@@ -6,8 +6,18 @@
 body{
     padding: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: center;    
 }
+
+
+body {
+    background: url(./img/artworks-35gCB0VtaGYTcW5W-VRwZ1A-t500x500.jpg) no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    }
+
 
 .wrap{
     display: flex;
@@ -19,6 +29,7 @@ body{
     flex-wrap: wrap;
     width: 500px;
     min-width: 500px;
+    opacity: 0.7;
 }
 
 .button{
@@ -31,15 +42,8 @@ body{
 }
 
 .hit{
-    background-color: red;
+    background: linear-gradient(black, red);
 }
-/* .muerto{
-    background-color: red;
-}
-
-.mar{
-    background-color: blue
-} */
 .past{
     background-color: blue
 }
