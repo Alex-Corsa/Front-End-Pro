@@ -55,7 +55,7 @@ function catAndMouse(e) {
     store.timeoutIds.push(timeId);
 
     if (mouseTouchRectangle()) {
-    gameOver("У боротьби з котом, Ви протимались " + timerGame.innerHTML + ". Спробуйте ще раз!");
+    gameOver("У боротьби з котом Ви протимались " + timerGame.innerHTML + ". Спробуйте ще раз!");
     }
 }
 
@@ -120,7 +120,7 @@ function compareCoordinatesCatAndMouse() {
         parseInt(cat.style.top) + Math.round(cat.offsetHeight / 2) + "px"
     ) {
     gameOver(
-        "У боротьби з котом, Ви протимались " + timerGame.innerHTML + ". Спробуйте ще раз!"
+        "У боротьби з котом Ви протимались " + timerGame.innerHTML + ". Спробуйте ще раз!"
     );
     }
 }
