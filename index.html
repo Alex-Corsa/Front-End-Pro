@@ -6,10 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Front End Pro</title>
-    <script src="./js/script.js"></script>
+    <script defer src="./js/script.js"></script>
 </head>
 <body>
-    <h1>HomeWork-16</h1>
-    <p></p>
+    <div class="wrap">
+        <form class="form" name="product">
+            <fieldset>
+                <legend>Карточка товара</legend>
+                <label for="name">Название:</label>
+                <input type="text" name="nameProduct" id="name" />
+                <label for="price">Цена:</label>
+                <input type="text" name="priceProduct" id="price" />
+                <label for="measure"> Единица измерения:</label>
+                <input type="text" name="measureProduct" id="measure" />
+                <label for="description">Описание:</label>
+                <textarea
+                name="descriptionProduct"
+                id="description"
+                cols="20"
+                rows="10"
+                ></textarea>
+                <label for="link">Ссылка на товар:</label>
+                <input type="text" name="linkProduct" id="link" />
+                <input type="submit" name="submit" value="Отправить" />
+            </fieldset>
+        </form>
+    </div>
 </body>
 </html>
