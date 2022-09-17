@@ -1,0 +1,73 @@
+*, html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'B612 Mono', monospace;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.wrap {
+  background-color: aqua;
+  border: 10px solid;
+  max-width: 1080px;
+  margin: 0 auto;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.field {
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  border: 2px solid #000000;
+  border-right: none;
+}
+
+.field:last-of-type {
+  border: 2px solid #000000;
+}
+
+.field-wrap {
+  position: relative;
+  display: flex;
+}
+
+.fishka-img {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 128px;
+  height: 126px;
+}
+
+.cube-img {
+  width: 130px;
+  height: 130px;
+  border: 1px solid #000000;
+}
+
+.btn {
+  width: 300px;
+  height: 100px;
+  font-size: 30px;
+  font-weight: 700;
+  border-radius: 20px;
+  border: 3px solid #e40e0e;
+  margin: 10px;
+}
+
+.result {
+  font-size: 30px;
+  font-weight: 700;
+}
