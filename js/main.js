@@ -152,7 +152,7 @@ const renderPokemon = (pokeData, srcImage) => {
     "btn-favorite",
     btnWrap,
     null,
-    `&#10084`
+    // `&#10084`
   );
 
   if (getFavourite(pokeData.id)) {
